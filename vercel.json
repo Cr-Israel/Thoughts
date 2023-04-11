@@ -1,10 +1,12 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "index.js", "use": "@vercel/node" }
-    ],
-    "env": {
-      "PORT": "3000"
-    }
-  }
-  
+  "version": 2,
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node" }
+  ],
+  "env": {
+    "PORT": "3000"
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "index.js" }
+  ]
+}
