@@ -8,7 +8,6 @@
 	<li>Criação de conta de usuário;</li>
 	<li>Login com e-mail e senha;</li>
 	<li>Postagem de pensamentos;</li>
-	<li>Comentários nas postagens de outros usuários;</li>
 	<li>Busca por pensamentos, tempo de postagem ou palavra específica;</li>
 	<li>Edição e exclusão dos pensamentos próprios;</li>
 	<li>Visualização dos pensamentos de outros usuários.</li>
